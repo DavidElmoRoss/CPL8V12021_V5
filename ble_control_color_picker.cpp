@@ -9,7 +9,7 @@
 #include "mbed.h"                           // include the mbed library
 #include "Grove_LCD_RGB_Backlight.h"        // include LCD library
 
-Grove_LCD_RGB_Backlight rgbLCD(D14, D15);   // pins for LCD connection
+Grove_LCD_RGB_Backlight rgbLCD(D14,D15);   // pins for LCD connection
 
 Serial blue(D1,D0);                         // blue is of class serial 
                                             // associated with UART
